@@ -1,10 +1,21 @@
-# Fibonacci Series in Python
+# 🐍 Python Programs
 
-A simple Python program to generate the **Fibonacci Series** for a given number of terms.
+This repository contains basic **Python programs** created for learning and practicing programming fundamentals.
 
-## 📌 About
+## 📚 Programs Included
 
-The Fibonacci series is a sequence in which each number is the sum of the previous two numbers.
+### 1. 👨‍🎓 Student Structure
+
+A simple Python program using a **class** to store and display student information such as:
+
+* Roll Number
+* Name
+* Age
+* Marks
+
+### 2. 🔢 Fibonacci Series
+
+A program to generate the **Fibonacci series** for a given number of terms.
 
 Example:
 
@@ -12,69 +23,73 @@ Example:
 0 1 1 2 3 5 8 13 21 ...
 ```
 
-## 💻 Code
+### 3. 💻 Basic Python Practice
 
-```python
-n = int(input("Enter number of terms: "))
+This repository also contains basic Python programming concepts and practice programs.
 
-a = 0
-b = 1
-
-print("Fibonacci Series:")
-
-for i in range(n):
-    print(a, end=" ")
-    c = a + b
-    a = b
-    b = c
-```
-
-## ▶️ Example
-
-**Input:**
+## 📁 Repository Structure
 
 ```text
-Enter number of terms: 7
+Python-Programs/
+│
+├── student.py
+├── fibonacci.py
+├── basic_program.py
+└── README.md
 ```
-
-**Output:**
-
-```text
-Fibonacci Series:
-0 1 1 2 3 5 8
-```
-
-## 🧠 How It Works
-
-1. Start with `a = 0` and `b = 1`.
-2. Print the value of `a`.
-3. Calculate the next number using `c = a + b`.
-4. Update `a` and `b`.
-5. Repeat the process until the required number of terms is printed.
 
 ## 🛠️ Requirements
 
 * Python 3.x
+* Any Python IDE or code editor
+* VS Code / PyCharm / IDLE (optional)
 
-## 🚀 How to Run
+## ▶️ How to Run
+
+Clone the repository:
+
+```bash
+git clone <YOUR-GITHUB-REPOSITORY-LINK>
+```
+
+Open the folder:
+
+```bash
+cd Python-Programs
+```
+
+Run a program:
+
+```bash
+python student.py
+```
+
+or
 
 ```bash
 python fibonacci.py
 ```
 
-## 📚 Concepts Used
+## 🧠 Concepts Practiced
 
 * Variables
-* `input()`
-* `for` loop
-* Arithmetic operators
-* Updating variables
-* Fibonacci sequence
+* Input and Output
+* Classes and Objects
+* Loops
+* Conditional Statements
+* Arithmetic Operations
+* Basic Problem Solving
+
+## 🎯 Purpose
+
+The purpose of this repository is to practice **Python fundamentals** and build a strong programming foundation for learning **Data Structures and Algorithms (DSA)**.
 
 ## 👨‍💻 Author
 
 **Nishant Punia**
 
+B.Tech CSE Student
+
 ---
 
-⭐ If you find this project useful, consider giving it a star!
+⭐ Feel free to explore the programs and use them for learning and practice.
